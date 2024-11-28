@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2a2f41;
+  color: white;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #404864
+  padding: 0 8px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+.container-2 {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.header-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.header-right {
+  display: flex;
+  gap: 20px;
+}
+
+.header-left {
+  display: flex;
+  gap: 20px;
+}
+
+select {
+  border-radius: 8px;
+  padding: 10px;
+  background-color: rgb(173, 51, 3);
+  color: white;
+}
+
+.hero {
+  background-image: url("./Bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.major-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mojar-title {
+  text-align: center;
+  font-size: 32px;
+  color: UPDATES;
+}
+
+.png {
+  padding: 50px 0;
+}
+
+.antwerp {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left {
+  display: flex;
+  gap: 15px;
+}
+.blog1 {
+  color: chocolate;
+  font-size: 18px;
+}
+
+.title-2 {
+  margin-top: 100px;
+}
